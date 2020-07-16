@@ -1,7 +1,7 @@
 import { useReducer } from 'react';
 
 const backend =
-  process.env.REACT_APP_BACKEND_URL || 'https://api.cord19.vespa.ai';
+  process.env.REACT_APP_BACKEND_URL || 'https://api.tech-pulse.vespa.ai';
 
 function Get(url, params) {
   return Fetch('GET', url, params);

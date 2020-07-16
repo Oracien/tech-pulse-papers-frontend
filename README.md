@@ -28,7 +28,7 @@ Find more details in [About CORD-19 Search](ABOUT.md)
 
 We are currently working on this -
 expect daily updates to documentation and query features.
-Use [issues](https://github.com/vespa-engine/cord-19/issues) for bug reports. 
+Use [issues](https://github.com/Oracien/tech-pulse-papers-frontend/issues) for bug reports. 
 Contributions are appreciated, see [contributing](/CONTRIBUTING.md).
 
 To create your __own copy__ of the backend Vespa application, see 
@@ -45,4 +45,4 @@ or mail at [info@vespa.ai](mailto:info@vespa.ai).
 
 ----
 
-[![CORD-19 UI](https://github.com/vespa-engine/cord-19/workflows/CORD-19%20UI/badge.svg?branch=master)](https://github.com/vespa-engine/cord-19/actions?query=workflow%3A%22CORD-19+UI%22)
+[![CORD-19 UI](https://github.com/Oracien/tech-pulse-papers-frontend/workflows/CORD-19%20UI/badge.svg?branch=master)](https://github.com/Oracien/tech-pulse-papers-frontend/actions?query=workflow%3A%22CORD-19+UI%22)

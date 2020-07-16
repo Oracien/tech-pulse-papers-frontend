@@ -58,28 +58,28 @@ const NavBar = styled(Menu)`
 
 const logo = (
   <Link to="/">
-    <span>CORD-19</span> Search and Navigate
+    <span>Tech Pulse Papers</span> Search and Navigate
   </Link>
 );
 
 const items = [
   {
     content: (
-      <Link to="https://github.com/vespa-engine/cord-19/blob/master/cord-19-queries.md">
+      <Link to="https://github.com/Oracien/tech-pulse-papers-frontend/blob/master/cord-19-queries.md">
         API
       </Link>
     ),
   },
   {
     content: (
-      <Link to="https://github.com/vespa-engine/cord-19/blob/master/README.md">
+      <Link to="https://github.com/Oracien/tech-pulse-papers-frontend/blob/master/README.md">
         Open source
       </Link>
     ),
   },
   {
     content: (
-      <Link to="https://github.com/vespa-engine/cord-19/blob/master/README.md#Contact">
+      <Link to="https://github.com/Oracien/tech-pulse-papers-frontend/blob/master/README.md#Contact">
         Contact us
       </Link>
     ),

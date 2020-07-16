@@ -7,7 +7,7 @@ _CORD-19 Search_ is built on Vespa Cloud:
 * Use the Query API to [search](https://docs.vespa.ai/documentation/querying-vespa.html).
 * Use the left frame to navigate / drill down / refine the query -
   implemented using [Vespa Grouping](https://docs.vespa.ai/documentation/grouping.html)
-* From the article view, find [similar/related articles](https://github.com/vespa-engine/cord-19/blob/master/cord-19-queries.md#user-content-related-articles-using-scibert-nli-embeddings) -
+* From the article view, find [similar/related articles](https://github.com/Oracien/tech-pulse-papers-frontend/blob/master/cord-19-queries.md#user-content-related-articles-using-scibert-nli-embeddings) -
   implemented using SCIBERT-NLI embeddings.
 
 The application is implemented as a

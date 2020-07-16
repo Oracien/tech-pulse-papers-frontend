@@ -20,28 +20,33 @@ const featuredArticles = [
   {
     logo: CWLogo,
     name: 'ComputerWorld',
-    link: 'https://www.computerworld.com/article/3534478/tech-pitches-in-to-fight-covid-19-pandemic.html'
+    link:
+      'https://www.computerworld.com/article/3534478/tech-pitches-in-to-fight-covid-19-pandemic.html',
   },
   {
     logo: SMDLogo,
     name: 'SearchMarketing Daily',
-    link: 'https://www.mediapost.com/publications/article/349673/verizon-media-launches-covid-19-search-engine-for.html'
+    link:
+      'https://www.mediapost.com/publications/article/349673/verizon-media-launches-covid-19-search-engine-for.html',
   },
   {
     logo: ZDNetLogo,
     name: 'ZDNet',
-    link: 'https://www.zdnet.com/article/verizon-introduces-open-source-big-data-coronavirus-search-engine/'
+    link:
+      'https://www.zdnet.com/article/verizon-introduces-open-source-big-data-coronavirus-search-engine/',
   },
   {
     logo: DatanamiLogo,
     name: 'Datanami',
-    link: 'https://www.datanami.com/2020/04/10/yahoos-vespa-takes-a-whack-at-cord-19-data/'
+    link:
+      'https://www.datanami.com/2020/04/10/yahoos-vespa-takes-a-whack-at-cord-19-data/',
   },
   {
     logo: WSJLogo,
     name: 'Wall Street Journal',
-    link: 'https://www.wsj.com/articles/machine-learning-experts-delve-into-47-000-papers-on-coronavirus-family-11586338201'
-  }
+    link:
+      'https://www.wsj.com/articles/machine-learning-experts-delve-into-47-000-papers-on-coronavirus-family-11586338201',
+  },
 ];
 
 const sampleQueries = [
@@ -132,7 +137,7 @@ function VespaDescription() {
       <Image src={VespaIcon} size="tiny" centered />
       <Text mt={3}>
         This is an{' '}
-        <Link to="https://github.com/vespa-engine/cord-19/blob/master/README.md">
+        <Link to="https://github.com/Oracien/tech-pulse-papers-frontend/blob/master/README.md">
           open source application{' '}
         </Link>
         on <Link to="https://vespa.ai">Vespa.ai</Link>
@@ -151,13 +156,19 @@ function FeaturedInSection() {
         {featuredArticles.map((article, i) => (
           <List.Item key={i}>
             <Link to={article.link}>
-              <Image src={article.logo} alt={article.name} size="tiny" centered verticalAlign='middle' />
+              <Image
+                src={article.logo}
+                alt={article.name}
+                size="tiny"
+                centered
+                verticalAlign="middle"
+              />
             </Link>
           </List.Item>
         ))}
       </List>
     </>
-  )
+  );
 }
 
 function Main() {
@@ -165,7 +176,7 @@ function Main() {
     <Content width={1}>
       <ContentGrid verticalAlign="middle" textAlign="center">
         <Grid.Column>
-          <h1 size="huge">CORD-19 Search</h1>
+          <h1 size="huge">Tech Pulse Papers Search</h1>
           <SearchForm onSearch={onSearch} />
           <SearchSuggestions />
           <VespaDescription />
